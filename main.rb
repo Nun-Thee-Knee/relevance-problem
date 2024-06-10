@@ -1,5 +1,5 @@
-hash = { "a" => 1, "b" => 2, "c" => 3 }
+require "./q1.rb"
 
-for key, value in hash
-  puts "#{key}: #{value}"
-end
+relevance = Relevance.new
+relevance.relation_query_page
+relevance.outputData
